@@ -4,15 +4,26 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
 
   // 启动处理函数
   onLoad() {
-    this.getUserProfile
+    this.setData({
+      canIUseGetUserProfile: true
+      }
+    );
+    wx.showToast({
+      title: 'Welcome, Ager',
+    });
+    wx.getUserInfo({
+      lang: 'zh_CN',
+      success: function(res) {
+        
+      }
+    })
   },
 
   // 事件处理函数
