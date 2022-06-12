@@ -1,0 +1,12 @@
+<view class="container">
+  <view class="splash">
+    <view class="splash-body">
+      <text class="fa-solid fa-cube fa-4x logo"></text>
+    </view>
+  </view>
+  <view class="splash-footer">
+    <text class="fa-solid fa-building-columns" style="font-size: 30rpx; display: inline-block;"></text>
+    <text style="font-family: Arial, Helvetica, sans-serif; font-size: 30rpx; display: inline-block; text-indent: 5px; "> 银宫 |  Ag-Palace</text>
+    <text style="font-family: 'Segoe UI', sans-serif; font-size: 25rpx; display: block; line-height: 10px;">All rights reserved,©2009-2022</text>
+  </view>
+</view>
