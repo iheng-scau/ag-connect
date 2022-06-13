@@ -3,6 +3,7 @@
   padding: 0;
   flex-direction: column;
 }
+
 .main-banner{
   display: flex;
   height: 350rpx;

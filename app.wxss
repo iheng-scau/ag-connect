@@ -1,4 +1,7 @@
 /**app.wxss**/
+@import "./fontawesome/fa-font-face.wxss";
+@import "./fontawesome/font-awesome.wxss";
+
 .container {
   height: 100%;
   display: flex;
