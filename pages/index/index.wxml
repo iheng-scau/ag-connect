@@ -6,9 +6,23 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
   </view>
-  <view>
-    <view class = "timeline" wx:for="{{array}}">
-        <view class="timeline-item">{{item.user}}</view>
-    </view>
-  </view>
+  <scroll-view class="content">
+    <view class="title">Gossips</view>
+    <view class="timeline" wx:for="{{array}}">
+      <view class="timeline-dot"></view>
+      <view class="timeline-item">
+        <view class="timeline-item-content">
+          <text class="fa-solid fa-circle-info"></text>
+          <text class="item-title">{{item.title}}</text>
+          <text class="item-time">{{item.time}}</text>
+          <rich-text class="item-content">{{item.content}}</rich-text>
+          <text class="item-publisher">{{item.publisher}}</text>
+          <view class="item-operation">
+            <text class="fa-solid fa-comment-dots"></text>
+            <text class="fa-solid fa-arrow-up-right-from-square"></text>
+          </view>
+          </view>
+        </view>
+      </view>
+  </scroll-view>
 </view>

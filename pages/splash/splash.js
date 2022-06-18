@@ -18,9 +18,9 @@ Page({
         {opacity:0},
         {opacity:100, ease: 'ease-out'}
       ], 2000, function(){
-        wx.navigateTo({
-           url: '/pages/index/index',
-          })
+        wx.switchTab({
+          url: '/pages/index/index',
+        });
       })
     })
   }

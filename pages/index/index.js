@@ -8,7 +8,12 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     array:[
-      {user:"银宫首辅"}
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgds", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"}
     ]
   },
 

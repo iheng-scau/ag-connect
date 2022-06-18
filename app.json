@@ -2,8 +2,24 @@
   "pages": [
     "pages/splash/splash",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/twc/twc"
   ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/logs/logs"
+      }
+    ]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
