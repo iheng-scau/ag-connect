@@ -33,10 +33,6 @@ Page({
         )
       }
     });
-
-    wx.showTabBar({
-      animation: true,
-    })
   },
 
   // 事件处理函数

@@ -2,8 +2,7 @@
   "pages": [
     "pages/splash/splash",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/twc/twc"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
