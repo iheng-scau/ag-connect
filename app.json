@@ -1,14 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/splash/splash",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/twc/twc"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Ag Connect+",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

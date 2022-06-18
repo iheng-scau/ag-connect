@@ -6,4 +6,9 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </view>
   </view>
+  <view>
+    <view class = "timeline" wx:for="{{array}}">
+        <view class="timeline-item">{{item.user}}</view>
+    </view>
+  </view>
 </view>

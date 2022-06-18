@@ -6,7 +6,10 @@ Page({
   data: {
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    array:[
+      {user:"银宫首辅"}
+    ]
   },
 
   // 启动处理函数
@@ -29,6 +32,10 @@ Page({
           }
         )
       }
+    });
+
+    wx.showTabBar({
+      animation: true,
     })
   },
 
