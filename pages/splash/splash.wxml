@@ -1,12 +1,16 @@
 <view class="container">
-  <view class="splash">
-    <view class="splash-body">
+  <view class="splash" style="justify-content:center;">
+    <view class="splash-body" style="align-self: center; ">
       <text class="fa-solid fa-cube fa-4x logo"></text>
     </view>
   </view>
   <view class="splash-footer">
-    <text class="fa-solid fa-building-columns" style="font-size: 30rpx; "></text>
-    <image src="../../images/ag-palace.png" mode="aspectFit" style="height: 20px;"/>
-    <text style="font-family: 'Segoe UI', sans-serif; font-size: 25rpx; display: block; line-height: 10px;">All rights reserved,©2009-2022</text>
+    <view id="logo" style="line-height: 30px; display: flex; justify-content:center; margin-top: 7vh;">
+      <text class="{{styleClass}}" style="font-size: 20px; align-self: center;"></text>
+      <image src="{{logoSrc}}" mode="aspectFit" style="height: 30px; width: 127px;"/>
+    </view>
+    <view style=" display:flex; justify-content: center;">
+      <text class="copy-right">Developed By Ag-Power.org, all rights reserved, ©2009-2022</text>
+    </view>
   </view>
 </view>

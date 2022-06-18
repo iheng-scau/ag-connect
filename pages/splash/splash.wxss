@@ -4,26 +4,36 @@
 
 .splash {
   width: 100%;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   background-color: rgb(38, 138, 113);
 }
 
 .splash-body {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center; 
 }
 
 .splash-footer {
+  justify-content: center;
   width: 100%;
+  height: 15vh;
   display: block;
   color: rgb(87, 86, 86);
   text-align: center;
 }
 
 .logo{
-  padding:65%;
   color: aliceblue;
+}
+
+.copy-right {
+  align-self: center;
+  font-family: 'Segoe UI', sans-serif; 
+  font-size: 19rpx; 
+  font-weight: 630; 
+  background-color: rgb(236, 238, 238);
+  border-radius: 5px;
+  padding: 0 3px 0 3px;
 }

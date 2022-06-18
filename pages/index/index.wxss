@@ -9,7 +9,7 @@
   height: 350rpx;
   width: 100%;
   flex-direction: column;
-  background-color: darkseagreen;
+  background-color: rgb(38, 138, 113);
   align-items: center;
 }
 
