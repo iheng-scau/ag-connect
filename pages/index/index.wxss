@@ -80,17 +80,24 @@
 .timeline-item-content{
   background-color: rgb(236, 236, 236);
   margin: 3px 0 3px 0;
-  padding: 5px;
+}
+
+.gossip-title {
+  background-color: rgb(216, 216, 216);
+  padding: 3px;
+  display: block;
 }
 
 .item-title {
   font-weight: bold;
   font-size: 15px;
+  margin-left: 3px;
 }
 
 .item-content {
   overflow-wrap: break-word;
   font-size: 13px;
+  display: flex;
 }
 
 .item-time{
@@ -103,12 +110,19 @@
 }
 
 .item-publisher{
-  background-color: rgb(247, 203, 167);
+  background-color: rgb(38, 142, 202);
   border-radius: 3px;
   font-size: 10px;
+  color:rgb(236, 236, 236);
+  padding: 0 3px 0 3px;
 }
 
 .item-operation {
   display: flex;
   flex-direction: row-reverse;
 }
+
+.op-icon {
+  color: rgb(194, 193, 193);
+  margin: 0 3px 2px 3px;
+} 

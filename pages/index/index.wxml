@@ -12,14 +12,24 @@
       <view class="timeline-dot"></view>
       <view class="timeline-item">
         <view class="timeline-item-content">
-          <text class="fa-solid fa-circle-info"></text>
-          <text class="item-title">{{item.title}}</text>
-          <text class="item-time">{{item.time}}</text>
+          <view class="gossip-title">
+            <view wx:if="{{item.icon == 'pin'}}" style="display: inline-block;">
+              <text class="fa-solid fa-thumbtack"></text>
+            </view>
+            <view wx:elif="{{item.icon == 'star'}}" style="display: inline-block;">
+              <text class="fa-solid fa-star"></text>
+            </view>
+            <view wx:else="{{item.icon == null}}"  style="display: inline-block;">
+              <text class="fa-solid fa-circle-info"></text>
+            </view>
+            <text class="item-title">{{item.title}}</text>
+            <text class="item-time">{{item.time}}</text>
+          </view>
           <rich-text class="item-content">{{item.content}}</rich-text>
           <text class="item-publisher">{{item.publisher}}</text>
           <view class="item-operation">
-            <text class="fa-solid fa-comment-dots"></text>
-            <text class="fa-solid fa-arrow-up-right-from-square"></text>
+            <text class="fa-solid fa-comment-dots op-icon"></text>
+            <text class="fa-solid fa-arrow-up-right-from-square op-icon"></text>
           </view>
           </view>
         </view>

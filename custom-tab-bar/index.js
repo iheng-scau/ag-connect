@@ -7,9 +7,18 @@ Component({
       pagePath: "/pages/index/index",
       text: "Ag+"
     }, {
-      pagePath: "/pages/logs/logs",
+      pagePath: "/pages/twc/twc",
       text: "T.W.C"
-    }]
+    },
+    {
+      pagePath: "/pages/activity/activity",
+      text: "Activity"
+    },
+    {
+      pagePath: "/pages/me/me",
+      text: "Me"
+    }
+  ]
   },
   attached() {
   },

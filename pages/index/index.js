@@ -8,9 +8,9 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     array:[
-      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgds", "time":"2022-01-02", publisher:"iheng"},
-      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
-      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
+      {title:"杨爱菲のFirstBlood事件", content:"adsdfhgds", "time":"2022-01-02", publisher:"iheng", "icon": "pin", "tag": true},
+      {title:"李贱人与Excellent的二三事", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng",  "icon": "star"},
+      {title:"XX与FF", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
       {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
       {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"},
       {title:"杨爱菲のFirstBlood事件", content:"adsdfhgdhjfsnbdvfhshdvfhsjdhgfsvdfsdhgfvsdhfvs", "time":"2022-01-02", publisher:"iheng"}

@@ -3,7 +3,9 @@
     "pages/splash/splash",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/twc/twc"
+    "pages/twc/twc",
+    "pages/activity/activity",
+    "pages/me/me"
   ],
   "tabBar": {
     "custom": true,
@@ -16,7 +18,13 @@
         "pagePath": "pages/index/index"
       },
       {
-        "pagePath": "pages/logs/logs"
+        "pagePath": "pages/twc/twc"
+      },
+      {
+        "pagePath": "pages/activity/activity"
+      },
+      {
+        "pagePath": "pages/me/me"
       }
     ]
   },

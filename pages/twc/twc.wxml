@@ -1,2 +1,19 @@
 <!--pages/twc/twc.wxml-->
-<text>pages/twc/twc.wxml</text>
+<view class="container">
+  <view class="main-banner">
+    <view class = "slide-img">
+      <view style="background-color: grey; height: 30vh; width: 100%; display: inline-block;">
+      
+      </view>
+      <view style="background-color: rgb(30, 126, 58); height: 100%; width: 100%; display: inline-block;">
+      
+    </view>
+    <view style="background-color: rgb(216, 71, 71); height: 100%;  width: 100%; display: inline-block;">
+      
+    </view>
+    </view>
+  </view>
+  <scroll-view class="content">
+   
+  </scroll-view>
+</view>
