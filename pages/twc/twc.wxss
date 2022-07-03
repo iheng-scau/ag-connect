@@ -10,23 +10,6 @@
 }
 
 .slide-img{
-  width: 300%;
-  height: 30vh;
-  animation: picmove 2s linear infinite forwards;
-}
-
-@keyframes picmove {
-
-  from {
-
-       transform: translate(0);
-
-     }
-
-     to {
-
-      transform: translate(-150px);
-
-  }
-
+  height: 25vh;
+  width: 100%;
 }
