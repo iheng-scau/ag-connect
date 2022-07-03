@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/twc/twc",
     "pages/activity/activity",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/chat/chat"
   ],
   "tabBar": {
     "custom": true,
@@ -22,6 +23,9 @@
       },
       {
         "pagePath": "pages/activity/activity"
+      },
+      {
+        "pagePath": "pages/chat/chat"
       },
       {
         "pagePath": "pages/me/me"

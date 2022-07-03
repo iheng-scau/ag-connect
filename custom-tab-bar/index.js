@@ -15,6 +15,10 @@ Component({
       text: "Activity"
     },
     {
+      pagePath: "/pages/chat/chat",
+      text: "Chat"
+    },
+    {
       pagePath: "/pages/me/me",
       text: "Me"
     }
